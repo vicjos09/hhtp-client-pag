@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/student/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/student/esp/json-http-client/build/bootloader",
+    "config_file":        "/home/student/esp/json-http-client/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3-dev-1720-g494a124d9",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/student/esp/esp-idf/components/efuse/Kconfig;/home/student/esp/esp-idf/components/esp32/Kconfig;/home/student/esp/esp-idf/components/esp_common/Kconfig;/home/student/esp/esp-idf/components/log/Kconfig;/home/student/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/student/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/student/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/student/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esptool_py", "hal", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/student/esp/esp-idf/components/bootloader", "/home/student/esp/esp-idf/components/bootloader_support", "/home/student/esp/esp-idf/components/efuse", "/home/student/esp/esp-idf/components/esp32", "/home/student/esp/esp-idf/components/esp_common", "/home/student/esp/esp-idf/components/esp_hw_support", "/home/student/esp/esp-idf/components/esp_rom", "/home/student/esp/esp-idf/components/esptool_py", "/home/student/esp/esp-idf/components/hal", "/home/student/esp/esp-idf/components/log", "/home/student/esp/esp-idf/components/bootloader/subproject/main", "/home/student/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/student/esp/esp-idf/components/partition_table", "/home/student/esp/esp-idf/components/soc", "/home/student/esp/esp-idf/components/spi_flash", "/home/student/esp/esp-idf/components/xtensa", "" ]
+}

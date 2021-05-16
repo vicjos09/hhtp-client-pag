@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/student/esp/json-http-client/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/student/esp/json-http-client/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/student/esp/json-http-client/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/student/esp/json-http-client/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/student/esp/json-http-client/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/student/esp/json-http-client/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/student/esp/json-http-client/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		},
+		{
+			"file" : "/home/student/esp/json-http-client/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/student/esp/json-http-client/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/student/esp/json-http-client/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
